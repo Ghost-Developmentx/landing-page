@@ -29,6 +29,8 @@ body {
     width: 100%;
     justify-content: center;
     align-items: center;
+    padding: 60px;
+    margin: 0 auto;
 }
 
 .section3 {
@@ -40,7 +42,36 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 40px;
+    padding: 60px;
+}
+
+.section4 {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    overflow: auto;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+}
+
+.signup {
+    background-color: rgb(80, 119, 224);
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px;
+    gap: 50px;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+
+.button {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 3px 15px;
 }
 
 .quote {

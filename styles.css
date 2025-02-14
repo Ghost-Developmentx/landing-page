@@ -55,6 +55,15 @@ body {
     padding: 60px;
 }
 
+.footer {
+    background-color: rgb(47, 56, 107);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
 .signup {
     background-color: rgb(80, 119, 224);
     border-radius: 10px;
